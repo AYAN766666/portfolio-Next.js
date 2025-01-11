@@ -36,11 +36,9 @@ export default   function Hero (){
       <div  className="w-[100px] h-[2px]  bg-blue-700 px-10 "      ></div>
       <p className="mb-8 leading-relaxed">
        
-      "Hello, my name is ayan and I'm a frontend web developer with a passion for building fast, ssblable, and user-friendly websites.
-          I specialize in Next.js, TailwindCSS, CSS, HTML,Javascript,and Typescript IN SHA ALLAH, I aspire to venture into Artificial  
-          Intelligence in the future and explore its vast possibilites. I'm excited to see where my journey takes me and how I can 
-          leverage my skills to make a positive impact in the tech industry." 
-        
+     
+     
+      Fast & Secure Website Solutions | Next.js | Tailwindcss | Expert Front End Web Developer | Free Consultation
       </p>
       <div className="flex justify-center"> 
         <Link href={'#contact '}         >

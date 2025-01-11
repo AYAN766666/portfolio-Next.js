@@ -1,6 +1,7 @@
 import { AiOutlineEdit } from "react-icons/ai"; 
 
-import { IoCheckboxOutline } from "react-icons/io5";
+
+
 
 export default function Skills (){
     return(

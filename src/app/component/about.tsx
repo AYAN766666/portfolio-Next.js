@@ -1,5 +1,5 @@
 import Image from "next/image" 
-import about from '.././../../public/ayan.jpg'
+import abp from '.././../../public/ayan.jpg'
 export default  function About (){ 
 
 return(
@@ -12,7 +12,7 @@ return(
       <Image
         className="object-cover object-center rounded mx-auto  w-[300px] h-[400px]     "
         alt="hero"
-        src={about} 
+        src={abp} 
         width={300} 
         height={500}
       />
@@ -27,16 +27,23 @@ return(
       
       <p className="mb-5 leading-relaxed">
 
-      "I'm Ayan, a first-year student with a passion for web development. As a frontend web developer, I specialize in building fast, 
-      scalable, and user-friendly web applications using Next.js, Tailwind CSS, HTML, CSS, JavaScript, and TypeScript.
-       With a strong foundation in these technologies, I'm excited to continue learning and growing as a developer."
-      
+      As a seasoned web developer with a passion for building fast, secure, and scalable websites, I help businesses and individuals create stunning online presence. With expertise in Next.js HTML and Tailwindcss, I deliver high-performance web applications that exceed expectations. With over [number] years of experience in web development, I have honed my skills in Next.js HTML and Tailwindcss to provide top-notch solutions for my clients. My expertise includes:
+ - Building fast and secure websites that load in seconds
+ Creating responsive and mobile-friendly designs that adapt to any screen size
+ Developing high-performance web applications that scale with ease
+ Ensuring website security and compliance with industry standards
+ Providing ongoing support and maintenance to ensure website longevity
+My approach is centered around delivering exceptional results, exceeding client expectations, and building long-term relationships. I take the time to understand my clients unique needs and goals, and work closely with them to bring their vision to life. Whether you are looking to build a new website, revamp an existing one, or simply need expert advice, I am here to help. Lets connect and discuss your project today!
+What I Offer:
+ Free consultation to discuss your project goals and requirements
+- Personalized solutions tailored to your specific needs and budget
+ Ongoing support and maintenance for continuous improvement
+- Collaborative approach to ensure your vision is brought to life
+Lets Connect:
+If you are looking for a reliable and skilled web developer to bring your web project to life, lets connect! I am excited to discuss your ideas and help you achieve your online goals.
       </p> 
-      <p className="mb-5 leading-relaxed">
-      "In addition to web development, I'm also pursuing a course in Artificial Intelligence, with a goal to become an expert in 
-      AI development in the future. I'm fascinated by the potential of AI to transform industries and improve lives, and I'm committed to contributing to this exciting field. My ultimate goal
-       is to become a leading AI developer and create innovative solutions that make a positive impact on society."
-      </p>
+     
+     
       <div className="flex justify-center"> 
         <a href="w-8ben.pdf"   >
         <button className="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">
